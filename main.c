@@ -3,6 +3,15 @@
 
 
 // This is where you add the function calculate_hypotenuse
+float calculate_hypotenuse(float a, float b)
+{
+    a = pow(a, 2);
+    b = pow(b, 2);
+    float ab = a + b;
+    float c = sqrt(ab);
+
+    return c;
+}
 
 int main() {
     float a = 3.0;
